@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:weightSum="1" android:layout_height="wrap_content" android:gravity="center">
+    <EditText android:layout_height="wrap_content" android:id="@+id/editText2" android:layout_width="match_parent" android:gravity="center" android:textSize="30dp" android:text="BUILDERS  "></EditText>
+    <EditText android:layout_height="384dp" android:textSize="50dp" android:layout_width="match_parent" android:hint="@string/hintStatus" android:id="@+id/editStatus" android:gravity="bottom|center" android:background="@drawable/images1">
+        <requestFocus></requestFocus>
+    </EditText>
+    <FrameLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/frameLayout1" android:layout_weight="0.09"></FrameLayout>
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="20dp" android:id="@+id/buttonUpdate" android:text="BUILDING DETAILS"></Button>
+    
+   
+</LinearLayout>

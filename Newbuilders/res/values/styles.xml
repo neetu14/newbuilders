@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="global">global</style>
+    <style name="Activity">activity</style>
+  <style name="title">
+        <item name="android:textSize">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="activity" >
+        
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    
+    <style name="button">
+          <item name="android:textSize">25dp</item>
+          <item name="android:layout_width">fill_parent</item>
+          <item name="android:layout_height">wrap_content</item>
+         
+         <item name="android:layout_margin">10dp</item>
+     </style>
+    
+    <style name="editbox">
+    <item name="android:layout_width">fill_parent</item> 
+	<item name="android:layout_height">fill_parent</item> 
+	<item name="android:layout_weight">1</item>
+	<item name="android:background">#6094</item> 
+	<item name="android:visibility">visible</item>
+	<item name="android:padding">10dp</item>
+	<item name="android:layout_margin">15dp</item>
+	<item name="android:inputType">textMultiLine|textAutoCorrect|textAutoComplete</item>
+	 </style>
+	 
+	 <style name="rowText">
+	 	  <item name="android:textSize">15dp</item>
+	 </style>
+</resources>

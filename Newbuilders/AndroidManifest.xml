@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="builders.com"
+      android:versionCode="1"
+      android:versionName="1.0">
+   
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:theme="@style/global">
+        
+               <activity android:name=".BuildersActivity" android:label="@string/app_name"> 
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />     
+                  </intent-filter>
+                  </activity>
+               
+              <activity android:name=".SecondActivity" ></activity>
+              <activity android:name=".BuyersActivity" ></activity>
+              <activity android:name=".paidbuyer" ></activity>
+              
+              <activity android:name=".InstallmentActivity" ></activity>
+              <activity android:name=".installment" ></activity>
+              
+              <activity android:name=".DefaulterActivity" ></activity>
+             
+              <service  android:name=".ServiceActivity"  android:enabled="true"/> 
+              <activity android:name=".SMS"  android:label="@string/app_name"></activity>
+              
+              <activity android:name=".percentageActivity"></activity>	
+	             <receiver android:name="MyBroadcastReceiver"></receiver> 
+ 
+              
+    </application>
+    
+     <uses-sdk android:minSdkVersion="8" />
+     
+    <uses-permission  android:name = "android.permission.INTERNET" />
+	<uses-permission  android:name = "android.permission.WRITE.EXTERNAL_STORAGE" />
+	
+	
+	<uses-permission android:name="android.permission.SEND_SMS">
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_SMS">
+    </uses-permission>
+	
+	
+	<uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+	
+</manifest>

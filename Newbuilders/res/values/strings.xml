@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Builders</string>
+    <string name="titleStatusUpdate">BUILDERS</string>
+    <string name="hintStatus">WELCOME</string>
+    <string name="buttonUpdate">NEXT</string>
+    <string name="button1">defaulter list</string>
+    
+  
+   
+   
+   
+    <string name="titlePrefs">buyers DB</string>
+    
+     
+      <string name="titleView">defaulters list</string>
+      
+   
+   
+    
+    
+     
+    
+     
+    
+ 
+</resources>
