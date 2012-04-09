@@ -25,7 +25,10 @@ public class BuildersActivity extends Activity implements OnClickListener {
         
         buttonUpdate.setOnClickListener(this);
     }
-    public void onClick(View v) {
+    
+    //hello.....
+    
+    void onClick(View v) {
 		switch (v.getId()){
 		case R.id.buttonUpdate:
 			Intent i=new Intent(this,SecondActivity.class);
