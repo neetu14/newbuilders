@@ -26,9 +26,9 @@ public class BuildersActivity extends Activity implements OnClickListener {
         buttonUpdate.setOnClickListener(this);
     }
     
-    //hello.....
     
-    void onClick(View v) {
+    
+    public void onClick(View v) {
 		switch (v.getId()){
 		case R.id.buttonUpdate:
 			Intent i=new Intent(this,SecondActivity.class);
@@ -38,6 +38,8 @@ public class BuildersActivity extends Activity implements OnClickListener {
 		}
     
 }
+
+// this is vemana IT...
     /*	@Override
     	public boolean onCreateOptionsMenu(Menu menu) {
     		getMenuInflater().inflate(R.menu.menu, menu);
